@@ -1,0 +1,23 @@
+name: elasticsearch
+title: Elasticsearch
+icon: elasticsearch
+
+services:
+- name: elasticsearch
+  title: Elasticsearch
+  service: elasticsearch
+  required: true
+  volumes:
+  - name: data
+    size: 20
+  workloads:
+  - name: main
+    containers:
+    - name: elasticsearch
+      resources:
+        request:
+          cpu: 1000
+          memory: 2048
+        limit:
+          cpu: 2000
+          memory: 4096
