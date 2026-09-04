@@ -21,3 +21,21 @@ services:
         limit:
           cpu: 2000
           memory: 4096
+- name: kibana
+  title: Kibana
+  service: kibana
+  main: true
+  links:
+  - name: elasticsearch
+    service: elasticsearch
+  workloads:
+  - name: main
+    containers:
+    - name: kibana
+      resources:
+        request:
+          cpu: 500
+          memory: 1024
+        limit:
+          cpu: 1000
+          memory: 2048
