@@ -11,6 +11,7 @@ composition for Elasticsearch.
 
 - [Elasticsearch stack on Wodby](https://wodby.com/stacks/elasticsearch)
 - [Browse Wodby application stacks](https://wodby.com/stacks)
+- [Elasticsearch stack guide](https://wodby.com/docs/2.0/stacks/catalog/elasticsearch/)
 - [Wodby stack documentation](https://wodby.com/docs/2.0/stacks/)
 - [Stack manifest reference](https://wodby.com/docs/2.0/stacks/template/)
 
